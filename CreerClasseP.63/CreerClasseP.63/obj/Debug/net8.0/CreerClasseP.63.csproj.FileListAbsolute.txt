@@ -1,0 +1,4 @@
+C:\Users\m.thomas\Desktop\C#\C#_OO\Exercices_C#[OO]\Partie2\CreerClasseP.63\CreerClasseP.63\obj\Debug\net8.0\CreerClasseP.63.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.thomas\Desktop\C#\C#_OO\Exercices_C#[OO]\Partie2\CreerClasseP.63\CreerClasseP.63\obj\Debug\net8.0\CreerClasseP.63.AssemblyInfoInputs.cache
+C:\Users\m.thomas\Desktop\C#\C#_OO\Exercices_C#[OO]\Partie2\CreerClasseP.63\CreerClasseP.63\obj\Debug\net8.0\CreerClasseP.63.AssemblyInfo.cs
+C:\Users\m.thomas\Desktop\C#\C#_OO\Exercices_C#[OO]\Partie2\CreerClasseP.63\CreerClasseP.63\obj\Debug\net8.0\CreerClasseP.63.csproj.CoreCompileInputs.cache
