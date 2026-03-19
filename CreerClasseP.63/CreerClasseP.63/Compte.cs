@@ -4,37 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Bank;
 
-public class Epargne : Compte
+public abstract class Compte
 {
+    public string? NumeroCarte { get; set; }
 
+    public Personne? Titulaire { get; set; }
 
-    public DateTime DernierRetrait { get; set; }
+    public double Solde { get; private set; }
 
+    protected abstract double CalculInteret();
 
-    protected override double CalculInteret()
+    public double AppliquerInteret()
     {
-        return Solde * 4.5 / 100;
+        return Solde = Solde + CalculInteret();
     }
 
 
-    public override void Retrait(double montant)
+    public virtual void Retrait(double montant)
     {
+
         if (montant < Solde)
         {
 
-            Console.WriteLine($"Retrait de {montant} accepté. Le montant actuel est de : {Solde - montant}");
+            Console.WriteLine($"Retrait de {montant} accepté");
         }
         else
         {
             Console.WriteLine("Solde insuffisant");
         }
-
     }
 
-    public override void Depot(double montant)
+
+    public virtual void Depot(double montant)
     {
         if (montant < 0)
         {
@@ -48,15 +51,8 @@ public class Epargne : Compte
 
         else
         {
-            Console.WriteLine($"Depot de {montant} accepté. Le montant actuel est de {Solde + montant}");
+            Console.WriteLine($"Depot de {montant} accepté");
         }
+
     }
-
-
-
-
-
-
 }
-
-

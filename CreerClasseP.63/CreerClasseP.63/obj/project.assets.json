@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m.thomas\\Desktop\\C#\\C#_OO\\Exercices_C#[OO]\\FAIT\\Partie3\\CreerClasseP.63\\CreerClasseP.63\\CreerClasseP.63.csproj",
-      "projectName": "CreerClasseP.63",
-      "projectPath": "C:\\Users\\m.thomas\\Desktop\\C#\\C#_OO\\Exercices_C#[OO]\\FAIT\\Partie3\\CreerClasseP.63\\CreerClasseP.63\\CreerClasseP.63.csproj",
+      "projectUniqueName": "C:\\Users\\m.thomas\\Desktop\\C#\\C#_OO\\Exercices_C#[OO]\\FAIT\\Partie3[Git]\\CreerClasseP.63\\CreerClasseP.63\\Bank.csproj",
+      "projectName": "Bank",
+      "projectPath": "C:\\Users\\m.thomas\\Desktop\\C#\\C#_OO\\Exercices_C#[OO]\\FAIT\\Partie3[Git]\\CreerClasseP.63\\CreerClasseP.63\\Bank.csproj",
       "packagesPath": "C:\\Users\\m.thomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m.thomas\\Desktop\\C#\\C#_OO\\Exercices_C#[OO]\\FAIT\\Partie3\\CreerClasseP.63\\CreerClasseP.63\\obj\\",
+      "outputPath": "C:\\Users\\m.thomas\\Desktop\\C#\\C#_OO\\Exercices_C#[OO]\\FAIT\\Partie3[Git]\\CreerClasseP.63\\CreerClasseP.63\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

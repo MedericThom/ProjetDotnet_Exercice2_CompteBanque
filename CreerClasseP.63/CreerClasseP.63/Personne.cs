@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Personne.Models
-{
-    public class Person
-    {
-        public string lastname { get; set; }
-        public string firstname { get; set; }
-        public DateTime birthDate {  get; set; }
+namespace Bank;
 
-    }
+public class Personne
+{
+    public string Nom { get; set; }
+    public string Prenom { get; set; }
+    public DateTime dateNaiss {  get; set; }
+
 }

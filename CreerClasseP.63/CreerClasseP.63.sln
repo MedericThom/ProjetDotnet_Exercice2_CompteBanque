@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreerClasseP.63", "CreerClasseP.63\CreerClasseP.63.csproj", "{9B197C34-CF51-4A44-A89C-E8704DF13E63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank", "CreerClasseP.63\Bank.csproj", "{9B197C34-CF51-4A44-A89C-E8704DF13E63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
