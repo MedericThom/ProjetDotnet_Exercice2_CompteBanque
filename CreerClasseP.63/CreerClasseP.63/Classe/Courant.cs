@@ -5,28 +5,45 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Bank;
+namespace CreerClasseP._63.Classe;
 
-public class Epargne : Compte
+public class Courant : Compte
 {
 
-
-    public DateTime DernierRetrait { get; set; }
-
+    private double _LigneDeCredit;
+    public double ligneDeCredit
+    {
+        get { return _LigneDeCredit; }
+        set { _LigneDeCredit = value >= 0 ? value : _LigneDeCredit; }
+    }
 
     protected override double CalculInteret()
     {
-        return Solde * 4.5 / 100;
+        if (Solde > 0)
+            return Solde * 3 / 100;
+        else
+            return Solde * 9.75 / 100;
     }
+
+
+
+
+
 
 
     public override void Retrait(double montant)
     {
-        if (montant < Solde)
+        if (Solde + ligneDeCredit < Solde - montant)
         {
 
             Console.WriteLine($"Retrait de {montant} accepté. Le montant actuel est de : {Solde - montant}");
         }
+
+        if (ligneDeCredit > 0 - montant)
+        {
+            Console.WriteLine($"Retrait de {montant} accepté. Le montant actuel est de : {ligneDeCredit - montant}");
+        }
+
         else
         {
             Console.WriteLine("Solde insuffisant");
@@ -50,13 +67,7 @@ public class Epargne : Compte
         {
             Console.WriteLine($"Depot de {montant} accepté. Le montant actuel est de {Solde + montant}");
         }
+
     }
 
-
-
-
-
-
 }
-
-

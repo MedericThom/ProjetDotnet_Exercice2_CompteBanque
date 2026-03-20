@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace Bank;
+namespace CreerClasseP._63.Classe;
 
 public class Banque
 {

@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bank;
+using CreerClasseP._63.Interface;
 
-public abstract class Compte
+namespace CreerClasseP._63.Classe;
+
+public abstract class Compte : ICustomer, IBanker
 {
     public string? NumeroCarte { get; set; }
 
@@ -16,10 +18,17 @@ public abstract class Compte
 
     protected abstract double CalculInteret();
 
+
+
     public double AppliquerInteret()
     {
         return Solde = Solde + CalculInteret();
     }
+
+
+
+
+
 
 
     public virtual void Retrait(double montant)
